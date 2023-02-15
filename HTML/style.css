@@ -44,3 +44,18 @@ header{
 
 #mas, #mas2, #mas3{display: none}
 
+@media (max-width: 600px){
+
+    .cartas{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    };
+    .tablas{
+        
+    }
+
+}
+
+
+

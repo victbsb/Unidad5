@@ -1,0 +1,41 @@
+#input{
+    justify-content: center;
+    box-sizing: 20px 100px;
+    
+}
+
+body{
+    background-color: #b6b6b6;
+    flex-direction: row;
+    text-align: center;
+    padding: 4%;
+    justify-content: center;
+}
+
+.btn{
+    
+    padding: 15px 32px;
+
+}
+
+#contador{
+    color: red;
+    font-size: 50px;
+}
+
+
+.orientacion{
+    color: blue;
+    text-decoration: underline;
+    font-size: larger;
+    margin: 1px;
+    align-content: center;
+}
+
+#gifExito{
+    display: none;
+}
+
+.resultadoGIF{
+    display: none;
+}
