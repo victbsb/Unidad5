@@ -19,6 +19,10 @@ function comprobar(){
 
     document.getElementById('contador').innerHTML=(contadorInicial)
 
+    /*Recuerda que las restricciones más severas deben ir al princippio, como controlar el input que mete el usuario que sea menor que 100
+    
+    Con el atributo: disabled = true, cuando el contador de vdias llegue a 0 o el de número de intentos, podemos activarlo para que se desactive el botón */
+
     if(numero == numeroAleatorio){
         console.log('Has acertado')
         document.getElementById('resultado').innerHTML = '¡Has ganado! ¡Tienes un A+ en la evaluación, bien hecho!'
