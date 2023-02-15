@@ -1,0 +1,46 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
+    padding: 2%;
+    border: 5px;
+    border-color: black;
+
+}
+
+header{
+    color: beige;
+    background-image: url('https://www.esri.ec/wp-content/uploads/2021/06/banner-home-UC2021.png');
+    background-size: auto;
+    background-position: center;
+    height: 10%;
+    width: 100%;
+}
+
+
+.cartas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around  ;
+}
+
+.tablas{
+    border-radius: 2px;
+    vertical-align: middle;
+    align-self:normal;
+
+}
+
+.contacto{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    size-adjust: 90%;
+    justify-content:space-evenly;
+  
+}
+
+#mas, #mas2, #mas3{display: none}
+
